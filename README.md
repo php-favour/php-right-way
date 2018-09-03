@@ -21,3 +21,10 @@
 * <a href="https://www.zybuluo.com/phper/note/66447" target="_blank"> php中的自动加载 </a>
 * <a href="http://laravelacademy.org/post/7074.html" target="_blank"> 深入学习 Composer 自动加载（autoload）机制 </a>
 * <a href="https://docs.phpcomposer.com/04-schema.html#autoload" target="_blank"> composer所支持的四种自动加载形式 </a>
+  > psr-4对应vendor/composer/autoload_psr4.php文件
+  
+  > psr-0对应vendor/composer/autoload_namespaces.php文件
+  
+  > classmap对应vendor/composer/autoload_classmap.php文件
+  
+  > file对应vendor/composer/autoload_files.php文件
